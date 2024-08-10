@@ -2,11 +2,10 @@
 
 int main()
 {
-    float num1 = 1.97f;
-    long double num2 = 5.524218l;
-    double num3 = 3792.8e+4;
+    double num1 = 0.4284;
+    float num2 = 2.7f;
 
-    printf("%f %Lf %f\n", num1, num2, num3); // 1.970000 5.524218 37928000.000000
+    printf("num1의 크기: %d, num2의 크기: %d\n", sizeof(num1), sizeof(num2));
 
     return 0;
 }
